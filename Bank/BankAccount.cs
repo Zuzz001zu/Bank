@@ -55,10 +55,9 @@ namespace BankAccountNS
 
         public static void Main()
         {
-            BankAccount ba = new BankAccount("Mr. Roman Abramovich", 11.99);
-
-            ba.Credit(5.77);
-            ba.Debit(11.22);
+            BankAccount ba = new BankAccount("Patek Philippe", 500.0);
+            ba.Debit(50.0);
+            ba.Credit(100.0);
             Console.WriteLine("Current balance is ${0}", ba.Balance);
             Console.ReadLine();
         }
